@@ -1,0 +1,50 @@
+.block {
+    width: 200px;
+    height: 200px;
+    background: rgb(85, 17, 17);
+    transition: 1s;
+}
+.block:hover {
+    background: green;
+}
+.button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.button:hover {
+    background: black;
+    color: white;
+}
+/*Active*/
+.active {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+}
+.active:active {
+    background: blue;
+}
+/*input*/
+.input {
+    padding: 20px 30px;
+    border: 20px 30px;
+    background: orange;
+}
+.input {
+    background: blue;
+}
+/*first-line*/
+.descroption {
+    font-size: 30px;
+}
+
+.discription::first-line {
+    color: green;
+}
+
+.discription::first-letter {
+    color: red;
+    font-size: 50px;
+}
